@@ -46,10 +46,14 @@ body{
 	flex-wrap: wrap;
 }
 
-.grid{
+.grid-top{
 	 display: grid;
-	grid-template-rows: 200px 100px;
-	grid-template-columns: repeat(4, 100px);
+	 grid-template-columns: 200px auto 200px;
+	grid-template-rows: 50% 50%;
+	grid-template-areas:
+		"left top right"
+		"left mid right"
+		"left bot right";
 }
 
 .top {
@@ -85,6 +89,36 @@ body{
 	justify-content: flex-end;
 	margin: 20px 10px 10px 10px;
 }
+
+#break{
+	grid-area: left;
+}
+
+#accel{
+	grid-area: right;
+}
+/*
+.item-a {
+  grid-area: header;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+}
+.container {
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+*/
 
 /* misc
 ========================*/
