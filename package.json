@@ -1,0 +1,10 @@
+{
+  "name": "baja-com",
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "electron": "^1.6.7",
+    "tether": "^1.4.0"
+  }
+}

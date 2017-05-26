@@ -1,0 +1,19 @@
+.bar{
+	height: 300px;
+	margin: 25px 0px  25px 0px; 
+	width: 160px;
+	float: left;
+}
+
+.circle{
+	margin: 40px 10px 0px 10px !important; 
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.gray{background: gray;}
+.white{ background: white; order: 3;}
+.orange{ background: orange; order: 0;}
+.tomato{ background: tomato; order: 99;}
+.ligthgreen{ background: lightgreen; order: 49;}
