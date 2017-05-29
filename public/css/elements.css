@@ -1,32 +1,48 @@
 .bar{
-	height: 45vh;
-	margin: 25px 0px  25px 0px; 
-	width: 160px;
+	width: 120px;
 	float: left;
+	
 }
 
 .top-circle{
 	margin: 40px 10px 0px 10px !important; 
+	/*
 	width: 250px;
 	height: 125px;
 	border-radius: 150px 150px 0px 0px ;
+	*/
+	width: 75%;
+	height: 10em;
+	border-radius: 50rem 50rem 0em 0em;
 }
 
 .bot-circle{
 	margin: 40px 10px 0px 10px !important; 
+	/*
 	width: 250px;
 	height: 125px;
 	border-radius: 0px 0px 150px 150px;
+	*/
+	width: 75%;
+	height: 10em;
+	border-radius: 0em 0em 50rem 50rem;
 }
 
 .circle{
 	margin: 40px 10px 0px 10px !important; 
+	/*
 	width: 250px;
 	height: 250px;
+	*/
+	width: 15em;
+	height: 15em;
 	border-radius: 50%;
 }
 
 .gray{background: gray;}
+.violet{ background: violet; order: 3;}
+.darkviolet{ background: darkviolet; order: 3;}
+.yellow{ background: yellow; order: 3;}
 .white{ background: white; order: 3;}
 .orange{ background: orange; order: 0;}
 .tomato{ background: tomato; order: 99;}

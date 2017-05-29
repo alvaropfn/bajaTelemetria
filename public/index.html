@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/elements.css">
 	<script src="..\node_modules\jquery\dist\jquery.js"></script>
-
+	<script src="script/script.js"></script>
 	<script src="..\node_modules\jquery\dist\jquery.min.js"></script>
 	<script src="..\node_modules\tether\dist\js\tether.min.js"></script>
 
@@ -21,18 +21,21 @@
 <body>
 
 <div class="flex-container wrap parent">
-	<div class="top nowrap gray">
+	<div id="top-container" class="top-container nowrap">
 		<div class="grid-top">
-			<div id="break" class="bar orange"></div>
-			<div id="top" class="top-circle white"></div>
-			<div id="mid" class="bot-circle white"></div>
-			<div id="bot" class="circle white"></div>
-			<div id="accel" class="bar lightgreen"></div>
+			<div id="break" class="flex-item bar orange"></div>
+			<div id="top" class="flex-item top-circle violet"></div>
+			<div id="mid" class="flex-item bot-circle darkviolet"></div>
+			<div id="bot" class="flex-item circle white"></div>
+			<div id="accel" class="flex-item bar lightgreen"></div>
 		</div>
 	</div>
-	<div class="bot nowrap gray">
+	<div div id="bot-container" class="bot-container nowrap gray">
 		
 	</div>
 </div>
 </body>
+<script>
+	verifyRotate()
+</script>
 </html>
