@@ -39,11 +39,4 @@
 	border-radius: 50%;
 }
 
-.gray{background: gray;}
-.violet{ background: violet; order: 3;}
-.darkviolet{ background: darkviolet; order: 3;}
-.yellow{ background: yellow; order: 3;}
-.white{ background: white; order: 3;}
-.orange{ background: orange; order: 0;}
-.tomato{ background: tomato; order: 99;}
-.lightgreen{ background: lightgreen; order: 49;}
+

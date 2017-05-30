@@ -1,0 +1,47 @@
+.bar {
+  height: 45vh;
+  width: 120px;
+  flex-grow: 1; }
+
+.circle {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%; }
+
+#constraint, #break, #accel {
+  margin: 10px;
+  padding: 0px; }
+
+#break {
+  margin-right: auto;
+  float: left; }
+
+#accel {
+  margin-left: auto;
+  float: right; }
+
+.gray {
+  background: gray; }
+
+.violet {
+  background: violet; }
+
+.darkviolet {
+  background: darkviolet; }
+
+.yellow {
+  background: yellow; }
+
+.white {
+  background: white; }
+
+.orange {
+  background: orange; }
+
+.tomato {
+  background: tomato; }
+
+.lightgreen {
+  background: lightgreen; }
+
+/*# sourceMappingURL=newElements.css.map */

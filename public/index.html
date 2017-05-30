@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/elements.css">
+	<link rel="stylesheet" href="css/newStyle.css">
+	<link rel="stylesheet" href="css//newElements.css">
 	<script src="..\node_modules\jquery\dist\jquery.js"></script>
 	<script src="script/script.js"></script>
 	<script src="..\node_modules\jquery\dist\jquery.min.js"></script>
@@ -20,22 +20,24 @@
 </head>
 <body>
 
-<div class="flex-container wrap parent">
-	<div id="top-container" class="top-container nowrap">
-		<div class="grid-top">
-			<div id="break" class="flex-item bar orange"></div>
-			<div id="top" class="flex-item top-circle violet"></div>
-			<div id="mid" class="flex-item bot-circle darkviolet"></div>
-			<div id="bot" class="flex-item circle white"></div>
-			<div id="accel" class="flex-item bar lightgreen"></div>
+<div class="parent-container">
+	<div class="top-container">
+		<div id="break"  class="bar orange"></div>
+		<div class="mid-container">
+			<!--
+			<div id="kmh" class="top-circle violet"></div>
+			<div id="rpm" class="bot-circle darkviolet"></div>
+			-->
+			<div id="wheel" class="circle white"></div>
+			
 		</div>
+		<div id="accel" class="bar lightgreen"></div>
 	</div>
-	<div div id="bot-container" class="bot-container nowrap gray">
-		
-	</div>
+	<!--========SCREEN DIVISION========-->
+	<div class="bot-container gray"></div>
 </div>
 </body>
 <script>
-	verifyRotate()
+	//verifyRotate()
 </script>
 </html>

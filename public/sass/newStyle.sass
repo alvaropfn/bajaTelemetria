@@ -1,0 +1,60 @@
+$bg: #1f292f
+
+*, *:before, *:after
+	-webkit-box-sizing: inherit
+	-moz-box-sizing: inherit
+	box-sizing: inherit
+
+html
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	
+body
+	width: auto
+	height: auto
+	border: 0
+	margin: 0
+
+.wrap
+	flex-wrap: wrap
+.nowrap
+	flex-wrap: nowrap
+.row
+	flex-flow: row
+.column
+	flex-flow: column
+
+.parent-container
+	@extend .wrap, .row
+	background: $bg
+	height: 100vh
+	width: 100vw
+
+.top-container, .bot-container
+	@extend .nowrap, .row
+
+	height: 50% 
+	width: 100%
+
+	height: calc( 50% -10px)
+	width: calc(100% -10px)
+
+	height: -moz-calc(50% -10px)
+	width: -moz-calc(100% -10px)
+
+	height: -webkit-calc(50% -10px)
+	width: -webkit-calc(100% -10px)
+	align-self: flex-start
+
+.mid-container
+	@extend .wrap, .column
+	flex-grow: 2
+	width: 50%
+	float: left
+	margin-left: auto
+	margin-right: auto
+
+	
+
+

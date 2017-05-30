@@ -1,0 +1,52 @@
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  width: auto;
+  height: auto;
+  border: 0;
+  margin: 0; }
+
+.wrap, .parent-container, .mid-container {
+  flex-wrap: wrap; }
+
+.nowrap, .top-container, .bot-container {
+  flex-wrap: nowrap; }
+
+.row, .parent-container, .top-container, .bot-container {
+  flex-flow: row; }
+
+.column, .mid-container {
+  flex-flow: column; }
+
+.parent-container {
+  background: #1f292f;
+  height: 100vh;
+  width: 100vw; }
+
+.top-container, .bot-container {
+  height: 50%;
+  width: 100%;
+  height: calc( 50% -10px);
+  width: calc(100% -10px);
+  height: -moz-calc(50% -10px);
+  width: -moz-calc(100% -10px);
+  height: -webkit-calc(50% -10px);
+  width: -webkit-calc(100% -10px);
+  align-self: flex-start; }
+
+.mid-container {
+  flex-grow: 2;
+  width: 50%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=newStyle.css.map */

@@ -57,7 +57,7 @@ body{
 }
 
 .grid-top{
-	 display: grid;
+	display: grid;
 	grid-template-columns: 200px auto 200px;
 	grid-template-rows: 50% 50%;
 	grid-template-areas:
@@ -123,12 +123,4 @@ body{
 	height: 100vh;
 	width: 100vw;
 	
-}
-
-.height100{
-	height: 100%;
-}
-
-.width100{
-	width: 100%;
 }
