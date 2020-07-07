@@ -4,7 +4,7 @@
   "main": "main.js",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "electron": "^1.6.7",
+    "electron": "^9.1.0",
     "tether": "^1.4.0"
   }
 }
